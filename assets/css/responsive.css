@@ -1,3 +1,150 @@
+@media (max-width: 1200px) {
+
+  /* why choose */
+
+.choose{
+  padding: 20px 0;
+}
+.choose h2{
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+.choose p{
+  width: 80%;
+}
+.choose-card {
+  padding: 20px;
+  width: 24%;
+}
+.choose-card i {
+  font-size: 2.5rem;
+}
+.choose-card h3 {
+  font-size: 16px;
+  height: 70px;
+}
+
+
+
+/* offer */
+
+.offer h2{
+  font-size: 24px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.offer p{
+  width: 80%;
+  margin-bottom: 20px;
+}
+.offer-image{
+  width: 70%;
+  margin: auto;
+}
+
+.offer-content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.offer-all-card{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+.offer-card{
+  width: 49%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+  overflow: hidden;
+  background: #fff;
+}
+.offer-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+.offer-card-left{
+  width: 60px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.offer-card-left i{
+  font-size: 30px;
+}
+.offer-card-right{
+  margin-left: 10px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.offer-btn{
+  font-size: 18px;
+  font-weight: 500;
+  padding: 10px 40px;
+  border-radius: 50px;
+  transition: 0.3s;
+  margin-top: 20px;
+  box-shadow: 0px 4px 10px -2px #676767;
+}
+
+
+
+
+.process{
+  padding: 20px 0;
+  padding-bottom: 60px;
+}
+.process h2{
+  font-size: 24px;
+  font-weight: 600;
+}
+.process h4{
+  font-size: 20px;
+  font-weight: 500;
+}
+.process-all-card{
+  margin-bottom: 30px;
+  margin-top: 100px;
+}
+.process-card {
+  width: 130px;
+  height: 130px;
+}
+.process-card i {
+  font-size: 2rem;
+}
+.process-card h3 {
+  font-size: 16px;
+  font-weight: 600;
+  width: 60%;
+}
+
+.process-curve-back{
+width: 80%;
+top: 230px;
+left: 100px;
+}
+.process-step{
+  top: -25px;
+  left: 30px;
+  font-size: 30px;
+}
+
+
+
+
+
+}
+
+
 @media (max-width: 1000px) {
     /* # Hero Section */
 
@@ -18,10 +165,13 @@
   line-height: 1;
   margin-bottom: 0rem;
 }
+.hero .hero-content p {
+  text-align: center;
+}
 .hero-btn{
   font-size: 18px;
   font-weight: 400;
-  padding: 10px 30px;
+  padding: 8px 30px;
 }
 
 .hero .hero-image img {
@@ -45,19 +195,19 @@
   margin-bottom: 10px;
 }
 .choose p{
-  width: 80%;
+  width: 90%;
 }
 .choose-card {
-  padding: 20px;
-  width: 24%;
+  padding: 10px;
+  width: 49%;
+  margin-bottom: 20px;
 }
 .choose-card i {
-  font-size: 2.5rem;
-  color: #636B2F;
+  font-size: 3rem;
 }
 .choose-card h3 {
   font-size: 16px;
-  height: 70px;
+  height: 50px;
 }
 
 
@@ -66,274 +216,164 @@
 
 /* offer */
 
-.offer h2{
-  font-size: 24px;
-  margin-top: 20px;
-  margin-bottom: 10px;
-}
 .offer p{
-  width: 80%;
-  margin-bottom: 20px;
+  width: 90%;
 }
 .offer-image{
-  width: 55%;
-  margin: auto;
-}
-
-.offer-content{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.offer-all-card{
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-between;
+  width: 30%;
 }
 .offer-card{
   width: 49%;
-  height: 60px;
-  display: flex;
-  align-items: center;
-  /* justify-content: center; */
-  border: 2px solid #636B2F;
-  border-radius: 8px;
-  margin-bottom: 20px;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-  cursor: pointer;
-  overflow: hidden;
-  background: #fff;
-}
-.offer-card:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  height: 50px;
+  border-radius: 6px;
+  margin-bottom: 14px;
 }
 .offer-card-left{
   width: 60px;
-  background: #636B2F;
   height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 .offer-card-left i{
   font-size: 30px;
-  color: #D4DE95;
 }
 .offer-card-right{
-  margin-left: 10px;
-  font-size: 20px;
-  color: #636B2F;
-  font-weight: 500;
-  line-height: 24px;
+  font-size: 18px;
 }
 .offer-btn{
-  color: #fff;
-  background: #636B2F;
   font-size: 18px;
-  font-weight: 500;
-  padding: 10px 40px;
-  border-radius: 50px;
-  transition: 0.3s;
-  margin-top: 20px;
-  box-shadow: 0px 4px 10px -2px #676767;
-}
-.offer-btn:hover {
-  color: #000;
-  background: #D4DE95;
+  font-weight: 400;
+  padding: 8px 30px;
+  margin-top: 10px;
+  margin-bottom: 20px;
 }
 
 
 
 
 
-
-
-/*  */
-
-.process{
-  background: rgb(229, 232, 212, 0.5);
-  padding: 30px 0;
-  padding-bottom: 60px;
-  position: relative;
 }
-.process h2{
-  font-size: 30px;
-  font-weight: 600;
-}
-.process p{
-  width: 70%;
-  margin: auto;
+
+
+
+
+
+
+
+@media (max-width: 800px) {
+  .process{
+  padding-bottom: 30px;
 }
 
 .process-all-card{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  margin-bottom: 30px;
-  margin-top: 100px;
+  margin-bottom: 0px;
+  margin-top: 40px;
+  justify-content: left;
+  gap: 40px;
 }
 .process-card {
-  background-color: #e5ebbd;
-  border-radius: 50%;
-  padding: 10px;
-  text-align: center;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-  width: 200px;
-  height: 200px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-}
-.process-card:hover {
-  transform: translateY(-10px);
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  width: 120px;
+  height: 120px;
 }
 .process-card i {
-  font-size: 3rem;
-  color: #636B2F;
+  font-size: 2rem;
 }
 .process-card h3 {
-  font-size: 20px;
-  font-weight: 700;
-  color: #333;
-  width: 50%;
+  font-size: 16px;
+  font-weight: 600;
+  width: 60%;
 }
 
 .process-curve-back{
-position: absolute;
-z-index: -1;
-width: 70%;
-top: 190px;
-left: 200px;
+display: none;
 }
-.process-curve-back img{
+.process-step{
+  top: -25px;
+  left: 30px;
+  font-size: 30px;
+}
+}
+
+
+
+
+
+
+
+
+
+@media (max-width: 500px) {
+
+
+  .header .btn-getstarted,
+.header .btn-getstarted:focus {
+  font-size: 14px;
+  font-weight: 400;
+  padding: 6px 10px;
+  margin: 0 0 0 10px;
+}
+ .header .header-container {
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 10px;
+  padding: 10px 10px;
+  margin-top: 20px;
+}
+
+
+/* why choose */
+
+.choose{
+  padding: 20px 0;
+}
+.choose h2{
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+.choose p{
   width: 100%;
 }
-
-.process-step{
-  position: absolute;
-  top: -25px;
-  left: 40px;
-  color: #636B2F;
-  font-size: 40px;
-  font-weight: 900;
-  z-index: -1;
-  transition: all 0.3s ease-in-out;
+.choose-card {
+  padding: 10px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+.choose-card h3 {
+  font-size: 16px;
+  height: 40px;
 }
 
 
 
 
 
+/* offer */
 
-
-
-
-
-
-
-/* blog */
-
-.blog{
-  margin-bottom: 60px;
+.offer p{
+  width: 100%;
 }
-
-.blog h2{
-  margin: 30px;
+.offer-image{
+  width: 30%;
 }
-.card{
-  position: relative;
+.offer-card{
+  width: 100%;
+  height: 50px;
+  border-radius: 6px;
+  margin-bottom: 14px;
 }
-.blog-heading{
-  font-size: 20px;
-  line-height: 26px;
-  font-weight: 500;
+.offer-card-left{
+  width: 60px;
+  height: 100%;
 }
-.blog-btn{
-  display: flex;
-  align-items: center;
+.offer-card-left i{
+  font-size: 30px;
+}
+.offer-card-right{
   font-size: 18px;
 }
-.blog-btn i{
-  font-size: 24px;
-  margin-top: 2px;
-}
-.blog-type{
-  position: absolute;
-  top: 30px;
-  right: 30px;
-  border: 1px solid #636B2F;
-  border-radius: 20px;
-  background: #D4DE95;
-  padding: 4px 20px;
-  transition: all 0.2s ease-in-out;
-}
-.card-body:hover .blog-type{
-  background: #636B2F;
-  color: #fff;
-}
-
-
-
-
-
-
-
-
-
-/* testimonial */
-.testimonials{
-  padding-bottom: 60px;
-  background: rgb(229, 232, 212, 0.5);
-}
-.testimonials h2{
-  font-size: 30px;
-  font-weight: 600;
-  padding-top: 30px;
-}
-.testimonial-card {
-  transition: transform 0.3s ease;
-  cursor: default;
-  height: 100%;
-  border: 1px solid #f5d6d0;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  border-radius: 14px;
-  position: relative;
-}
-
-.testimonial-card:hover {
-  transform: translateY(-10px);
-  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
-}
-.testimonial-card .avatar {
-  width: 80px;
-  height: 80px;
-}
-
-.testimonial-text {
-  font-style: normal;
-  font-size: 0.95rem;
-  color: #1a1a1a;
-}
-.testimonial-card p{
-  text-align: left;
-  /* height: 76%; */
-  font-size: 0.9rem;
+.offer-btn{
+  font-size: 18px;
+  font-weight: 400;
+  padding: 8px 30px;
   margin-top: 10px;
-}
-.testimonial-card h5{
-  font-size: 1.1rem;
-}
-.testimonial-card h6{
-  font-size: 0.9rem;
-  margin-bottom: 0;
+  margin-bottom: 20px;
 }
 
 

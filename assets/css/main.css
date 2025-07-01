@@ -12,7 +12,7 @@
 
 /* # General Styling & Shared Classes */
 body {
-  background: url(/assets/img/background.jpg);
+  background: url(/assets/img/background.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -22,15 +22,18 @@ body {
   margin: 0;
 }
 
+.section-container{
+  width: 85% !important;
+  margin: auto;
+}
+
 
 a {
-  color: #636B2F;
   text-decoration: none;
   transition: 0.3s;
 }
 
 a:hover {
-  color: color-mix(in srgb, #b0ba6c, transparent 25%);
   text-decoration: none;
 }
 
@@ -63,9 +66,9 @@ h6 {
 .swiper-button-next {
   width: 32px;
   height: 32px;
-  background-color: #D4DE95;
+  background-color: #b9d8c6;
   border-radius: 50%;
-  color: #636B2F;
+  color: #139348;
   font-size: 16px;
   justify-content: center;
   align-items: center;
@@ -159,7 +162,7 @@ h6 {
 .header .btn-getstarted,
 .header .btn-getstarted:focus {
   color: #fff;
-  background: #636B2F;
+  background: #139348;
   font-size: 14px;
   font-weight: 500;
   padding: 8px 20px;
@@ -172,7 +175,7 @@ h6 {
 .header .btn-getstarted:hover,
 .header .btn-getstarted:focus:hover {
   color: #000;
-  background: #D4DE95;
+  background: #9dcbb0;
 }
 
 /* 
@@ -245,18 +248,18 @@ h6 {
   .navmenu li:hover>a,
   .navmenu .active,
   .navmenu .active:focus {
-    color: #b0ba6c;
+    color: #139348;
   }
 
 .navbar-toggler {
   display: none;
   background-color: transparent;
-  border: 1px solid #636B2F;
+  border: 2px solid #139348;
   padding: 2px 4px;
   border-radius: 4px;
   cursor: pointer;
   font-size: 22px;
-  color: #636B2F;
+  color: #139348;
 }
 
 
@@ -265,14 +268,14 @@ h6 {
   .navmenu ul {
     display: none;
     flex-direction: column;
-    background-color: rgba(255, 255, 255, 0.95);
+    background-color: rgba(255, 255, 255);
     width: 100%;
     position: absolute;
     top: 100%;
     left: 0;
     z-index: 999;
     box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-    border-radius: 0;
+    border-radius: 10px;
   }
 
   .navmenu ul.show {
@@ -337,11 +340,7 @@ h6 {
     padding-right: 0;
   }
 
-  .navmenu li:hover>a,
-  .navmenu .active,
-  .navmenu .active:focus {
-    color: #b0ba6c;
-  }
+
 
   .navmenu .dropdown ul {
     margin: 0;
@@ -530,7 +529,7 @@ h6 {
 
 .footer {
   color: #000;
-  background-color: #D4DE95;
+  background-color: #66bc8a;
   font-size: 14px;
   position: relative;
 }
@@ -565,13 +564,13 @@ h6 {
   height: 40px;
   border-radius: 50%;
   font-size: 24px;
-  color: #636B2F;
+  color: #0e7b3b;
   margin-right: 10px;
   transition: 0.3s;
 }
 
 .footer .social-links a:hover {
-  color: #3D4126;
+  color: #00481e;
 }
 
 .footer h4 {
@@ -656,7 +655,7 @@ h6 {
   right: 15px;
   bottom: -15px;
   z-index: 99999;
-  background-color: #636B2F;
+  background-color: #139348;
   width: 44px;
   height: 44px;
   border-radius: 50px;
@@ -684,99 +683,6 @@ h6 {
     transition-delay: 0 !important;
   }
 } */
-
-
-/* # Global Page Titles & Breadcrumbs */
-
-.page-title {
-  color: var(--default-color);
-  background-color: var(--background-color);
-  padding: 170px 0 80px 0;
-  text-align: center;
-  position: relative;
-}
-
-.page-title h1 {
-  font-size: 42px;
-  font-weight: 700;
-  margin-bottom: 10px;
-}
-
-.page-title .breadcrumbs ol {
-  display: flex;
-  flex-wrap: wrap;
-  list-style: none;
-  justify-content: center;
-  padding: 0;
-  margin: 0;
-  font-size: 16px;
-  font-weight: 400;
-}
-
-.page-title .breadcrumbs ol li+li {
-  padding-left: 10px;
-}
-
-.page-title .breadcrumbs ol li+li::before {
-  content: "/";
-  display: inline-block;
-  padding-right: 10px;
-  color: color-mix(in srgb, var(--default-color), transparent 70%);
-}
-
-
-/* # Global Sections */
-
-
-/* @media (max-width: 1199px) {
-
-  section,
-  .section {
-    scroll-margin-top: 66px;
-  }
-} */
-
-
-/* # Global Section Titles */
-
-.section-title {
-  text-align: center;
-  padding-bottom: 60px;
-  position: relative;
-}
-
-.section-title h2 {
-  font-size: 32px;
-  font-weight: 700;
-  margin-bottom: 20px;
-  padding-bottom: 20px;
-  position: relative;
-}
-
-.section-title h2:after {
-  content: "";
-  position: absolute;
-  display: block;
-  width: 50px;
-  height: 3px;
-  background: var(--accent-color);
-  left: 0;
-  right: 0;
-  bottom: 0;
-  margin: auto;
-}
-
-.section-title p {
-  margin-bottom: 0;
-}
-
-
-
-
-
-
-
-
 
 
 
@@ -816,9 +722,13 @@ h6 {
   margin-bottom: 1.5rem;
 }
 
+.hero .hero-content p {
+  padding-bottom: 20px;
+}
+
 .hero-btn{
   color: #fff;
-  background: #636B2F;
+  background: #139348;
   font-size: 18px;
   font-weight: 500;
   padding: 12px 40px;
@@ -829,7 +739,7 @@ h6 {
 
 .hero-btn:hover {
   color: #000;
-  background: #D4DE95;
+  background: #9dcbb0;
 }
 
 /* @media (max-width: 992px) {
@@ -1053,7 +963,7 @@ h6 {
 /* why choose */
 
 .choose{
-  background: rgb(229, 232, 212, 0.5);
+  background: rgb(206, 225, 215);
   padding: 30px 0;
 }
 .choose h2{
@@ -1091,7 +1001,7 @@ margin-bottom: 30px;
 }
 .choose-card i {
   font-size: 3rem;
-  color: #636B2F;
+  color: #139348;
 }
 .choose-card h3 {
   font-size: 18px;
@@ -1139,7 +1049,7 @@ margin-bottom: 30px;
   display: flex;
   align-items: center;
   /* justify-content: center; */
-  border: 2px solid #636B2F;
+  border: 2px solid #139348;
   border-radius: 8px;
   margin-bottom: 20px;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -1153,7 +1063,7 @@ margin-bottom: 30px;
 }
 .offer-card-left{
   width: 60px;
-  background: #636B2F;
+  background: #139348;
   height: 100%;
   display: flex;
   align-items: center;
@@ -1161,18 +1071,18 @@ margin-bottom: 30px;
 }
 .offer-card-left i{
   font-size: 30px;
-  color: #D4DE95;
+  color: #9dcbb0;
 }
 .offer-card-right{
   margin-left: 10px;
   font-size: 20px;
-  color: #636B2F;
+  color: #139348;
   font-weight: 500;
   line-height: 24px;
 }
 .offer-btn{
   color: #fff;
-  background: #636B2F;
+  background: #139348;
   font-size: 18px;
   font-weight: 500;
   padding: 10px 40px;
@@ -1183,7 +1093,7 @@ margin-bottom: 30px;
 }
 .offer-btn:hover {
   color: #000;
-  background: #D4DE95;
+  background: #9dcbb0;
 }
 
 
@@ -1192,10 +1102,11 @@ margin-bottom: 30px;
 
 
 
-/*  */
+/* process */
 
 .process{
-  background: rgb(229, 232, 212, 0.5);
+  /* background: rgb(157, 203, 176, 0.3); */
+  background: rgb(206, 225, 215, 0.3);
   padding: 30px 0;
   padding-bottom: 60px;
   position: relative;
@@ -1217,14 +1128,14 @@ margin-bottom: 30px;
   margin-top: 100px;
 }
 .process-card {
-  background-color: #e5ebbd;
+  background-color: #9dcbb0;
   border-radius: 50%;
-  padding: 10px;
+  padding: 0px;
   text-align: center;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
-  width: 200px;
-  height: 200px;
+  width: 180px;
+  height: 180px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -1237,21 +1148,21 @@ margin-bottom: 30px;
 }
 .process-card i {
   font-size: 3rem;
-  color: #636B2F;
+  color: #139348;
 }
 .process-card h3 {
   font-size: 20px;
   font-weight: 700;
   color: #333;
-  width: 50%;
+  width: 60%;
 }
 
 .process-curve-back{
 position: absolute;
 z-index: -1;
-width: 70%;
-top: 190px;
-left: 200px;
+width: 80%;
+top: 270px;
+left: 150px;
 }
 .process-curve-back img{
   width: 100%;
@@ -1261,7 +1172,7 @@ left: 200px;
   position: absolute;
   top: -25px;
   left: 40px;
-  color: #636B2F;
+  color: #139348;
   font-size: 40px;
   font-weight: 900;
   z-index: -1;
@@ -1309,14 +1220,14 @@ left: 200px;
   position: absolute;
   top: 30px;
   right: 30px;
-  border: 1px solid #636B2F;
+  border: 1px solid #139348;
   border-radius: 20px;
-  background: #D4DE95;
+  background: #9dcbb0;
   padding: 4px 20px;
   transition: all 0.2s ease-in-out;
 }
 .card-body:hover .blog-type{
-  background: #636B2F;
+  background: #139348;
   color: #fff;
 }
 
@@ -1331,7 +1242,7 @@ left: 200px;
 /* testimonial */
 .testimonials{
   padding-bottom: 60px;
-  background: rgb(229, 232, 212, 0.5);
+  background: rgb(206, 225, 215);
 }
 .testimonials h2{
   font-size: 30px;
@@ -1342,7 +1253,7 @@ left: 200px;
   transition: transform 0.3s ease;
   cursor: default;
   height: 100%;
-  border: 1px solid #f5d6d0;
+  border: 1px solid #9dcbb0;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -1366,7 +1277,6 @@ left: 200px;
 }
 .testimonial-card p{
   text-align: left;
-  /* height: 76%; */
   font-size: 0.9rem;
   margin-top: 10px;
 }
