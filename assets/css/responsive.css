@@ -1,3 +1,24 @@
+@media (min-width: 1500px) {
+  .section-container{
+    width: 1300px !important;
+    margin: auto;
+  }
+
+  .process-curve-back {
+  position: absolute;
+  z-index: -1;
+  width: 1300px;
+  top: 290px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+}
+
+
+
+
+
 @media (max-width: 1200px) {
 
   /* why choose */
@@ -129,7 +150,7 @@
 
 .process-curve-back{
 width: 80%;
-top: 230px;
+top: 250px;
 left: 100px;
 }
 .process-step{
