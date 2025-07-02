@@ -13,6 +13,16 @@
   transform: translateX(-50%);
 }
 
+.product-header-banner p{
+  width: 1200px;
+}
+.blog-header-banner p{
+  width: 1200px;
+}
+.privacy-header-banner p{
+  width: 1200px;
+}
+
 }
 
 
