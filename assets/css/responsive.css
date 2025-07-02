@@ -163,7 +163,64 @@ left: 100px;
 
 
 
+
+
+
+/* blog page */
+.blog-catg{
+  gap: 10px;
+  flex-wrap: wrap;
 }
+
+
+
+
+
+/* about page */
+.vision h2{
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+.vision p{
+  width: 75%;
+}
+.vision-card h2{
+  font-size: 24px;
+  text-align: unset;
+}
+.vision-card p{
+  width: 100%;
+  text-align: unset;
+}
+
+
+
+
+
+/* about page */
+.team h2{
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+.team p{
+  width: 75%;
+}
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
 
 
 @media (max-width: 1000px) {
@@ -271,6 +328,149 @@ left: 100px;
 
 
 
+
+
+
+
+
+
+
+/* product page */
+
+
+.product-header-banner {
+  height: 300px;
+}
+.product-header-banner h1{
+  margin-top: 80px;
+  font-weight: 600;
+  font-size: 40px;
+}
+.product-header-banner p{
+  font-weight: 400;
+  font-size: 18px;
+  width: 80%;
+  line-height: 24px;
+}
+
+.product-single {
+  margin: 50px 0;
+  padding: 0px;
+}
+.product-single h2{
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.product-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.product-left{
+  width: 59%;
+}
+.product-left ul{
+  border-radius: 6px;
+  padding-left: 30px;
+  font-size: 14px;
+}
+
+
+.product-right{
+  width: 39%;
+}
+
+.product-btn-all{
+  margin-top: 20px;
+  gap: 10px;
+}
+.product-started-btn{
+  font-size: 16px;
+  font-weight: 400;
+  padding: 6px 30px;
+}
+.product-more-btn{
+  font-size: 16px;
+  padding: 6px 30px;
+}
+
+.product-divider{
+  height: 1px;
+}
+
+
+
+
+
+
+/* blog page */
+
+
+.blog-header-banner {
+  height: 300px;
+}
+.blog-header-banner h1{
+  margin-top: 80px;
+  font-weight: 600;
+  font-size: 40px;
+}
+.blog-header-banner p{
+  font-weight: 400;
+  font-size: 18px;
+  width: 80%;
+  line-height: 24px;
+}
+
+
+
+
+
+
+
+
+/* about page */
+
+.about-right {
+  margin-top: 20px;
+}
+
+
+.about-right-content-innerdiv {
+  width: 49% !important;
+  margin-top: 10px;
+}
+
+.vision p{
+  width: 90%;
+}
+.vision-card h2{
+  font-size: 22px;
+}
+.vision-card p{
+  width: 100%;
+}
+.vision-card h5 {
+  font-size: 16px;
+}
+
+
+
+
+
+
+
+/* about page */
+
+.team p{
+  width: 90%;
+}
+
+
+
+
+
 }
 
 
@@ -321,9 +521,86 @@ display: none;
 
 
 
+@media (max-width: 700px) {
+
+  /* product page */
+
+.product-header-banner h1{
+  margin-top: 100px;
+  font-weight: 500;
+  font-size: 30px;
+}
+.product-header-banner p{
+  font-weight: 300;
+  font-size: 16px;
+  width: 100%;
+  line-height: 20px;
+}
+
+.product-single {
+  margin: 30px 0;
+  padding: 0px;
+}
+.product-single h2{
+  margin-bottom: 10px;
+  text-align: center;
+}
+.product-single p{
+  text-align: center;
+}
+
+.product-container{
+  flex-direction: column !important;
+}
+.product-left{
+  width: 100%;
+}
+
+.product-right{
+  width: 50%;
+  margin-top: 20px;
+}
+.product-btn-all{
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+
+
+
+ /* blog page */
+
+.blog-header-banner h1{
+  margin-top: 100px;
+  font-weight: 500;
+  font-size: 30px;
+}
+.blog-header-banner p{
+  font-weight: 300;
+  font-size: 16px;
+  width: 100%;
+  line-height: 20px;
+}
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
 @media (max-width: 500px) {
-
-
+  
+  
   .header .btn-getstarted,
 .header .btn-getstarted:focus {
   font-size: 14px;
@@ -332,16 +609,16 @@ display: none;
   margin: 0 0 0 10px;
 }
  .header .header-container {
-  background: rgba(255, 255, 255, 0.3);
-  border-radius: 10px;
-  padding: 10px 10px;
-  margin-top: 20px;
-}
+   background: rgba(255, 255, 255, 0.3);
+   border-radius: 10px;
+   padding: 10px 10px;
+   margin-top: 20px;
+  }
 
-
-/* why choose */
-
-.choose{
+  
+  /* why choose */
+  
+  .choose{
   padding: 20px 0;
 }
 .choose h2{
@@ -399,4 +676,57 @@ display: none;
 
 
 
+
+
+/* blog page */
+
+.blog-card{
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+
+
+
+
+/* about page */
+.about-right-content {
+  height: 49%;
+  padding: 20px;
+  gap: 6px;
+}
+
+.about-right-content-innerdiv {
+  width: 100% !important;
+  padding: 20px;
+  margin-top: 0px;
+}
+.vision-container{
+  flex-wrap: wrap;
+}
+.vision-card {
+  width: 100%;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+
+
+
+
+}
+
+
+
+
+
+
+@media (max-width: 400px) {
+  .product-started-btn{
+  padding: 4px 20px;
+}
+.product-more-btn{
+  padding: 4px 10px;
+}
 }
