@@ -172,7 +172,10 @@ left: 100px;
   flex-wrap: wrap;
 }
 
-
+/* blog detail page */
+.blog-about p{
+  width: 350px;
+}
 
 
 
@@ -193,11 +196,6 @@ left: 100px;
   text-align: unset;
 }
 
-
-
-
-
-/* about page */
 .team h2{
   font-size: 24px;
   margin-bottom: 10px;
@@ -206,6 +204,19 @@ left: 100px;
   width: 75%;
 }
 
+
+
+
+
+/* enwuiry page */
+
+.enquiry-form h2{
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+.enquiry-form p{
+  width: 85%;
+}
 
 
 
@@ -429,7 +440,6 @@ left: 100px;
 
 
 
-
 /* about page */
 
 .about-right {
@@ -465,6 +475,55 @@ left: 100px;
 
 .team p{
   width: 90%;
+}
+
+
+
+
+
+
+
+/* privacy page */
+.privacy-header-banner {
+  height: 300px;
+}
+.privacy-header-banner h1{
+  margin-top: 80px;
+  font-weight: 600;
+  font-size: 40px;
+}
+.privacy-header-banner p{
+  font-weight: 400;
+  font-size: 18px;
+  width: 80%;
+  line-height: 24px;
+}
+
+
+
+
+
+
+
+
+/* enquiry page */
+
+.enquiry-hero{
+  padding-top: 120px;
+}
+.enquiry-hero-card-all {
+  justify-content: center;
+  width: 100%;
+}
+.enquiry-hero-card-text {
+  font-size: 16px;
+  font-weight: 500;
+}
+.enquiry-hero-card-all .divider{
+  height: 80px;
+  width: 1.4px;
+  background: #139348;
+  border-radius: 4px;
 }
 
 
@@ -585,6 +644,27 @@ display: none;
 }
 
 
+/* blog detail page */
+.blog-about p{
+  width: 450px;
+}
+
+
+
+
+/* privacy page */
+.privacy-header-banner h1{
+  margin-top: 100px;
+  font-weight: 500;
+  font-size: 30px;
+}
+.privacy-header-banner p{
+  font-weight: 300;
+  font-size: 16px;
+  width: 100%;
+  line-height: 20px;
+}
+
 
 
 
@@ -680,10 +760,27 @@ display: none;
 
 /* blog page */
 
-.blog-card{
+/* blog detail page */
+.blog-about p{
   width: 100%;
-  margin-bottom: 20px;
+  text-align: center;
 }
+
+
+.blog-about {
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.blog-post-card .blog-catg{
+  justify-content: center;
+  margin-left: 0px;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+
 
 
 
@@ -709,6 +806,12 @@ display: none;
   border-radius: 10px;
   padding: 20px;
   margin-bottom: 20px;
+}
+
+
+
+.form-section-img{
+  display: none;
 }
 
 
