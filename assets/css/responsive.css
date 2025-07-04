@@ -245,6 +245,14 @@ left: 100px;
 
 
 @media (max-width: 1000px) {
+
+  /* navbar */
+
+  .btn-login{
+  margin-right: 10px !important;
+}
+
+
     /* # Hero Section */
 
 .hero {
@@ -703,7 +711,6 @@ display: none;
    padding: 10px 10px;
    margin-top: 20px;
   }
-
   
   /* why choose */
   
