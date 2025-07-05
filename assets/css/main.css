@@ -12,7 +12,7 @@
 
 /* # General Styling & Shared Classes */
 body {
-  background: url(/assets/img/background.png);
+  background: url(../img/background.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -735,7 +735,7 @@ h6 {
 }
 
 .hero .hero-content h1 {
-  font-size: 2.5rem;
+  font-size: 3rem;
   font-weight: 700;
   line-height: 1.2;
   padding-bottom: 30px;
@@ -1102,8 +1102,8 @@ margin-bottom: 30px;
   color: #fff;
   background: #14924A;
   font-size: 18px;
-  font-weight: 500;
-  padding: 10px 40px;
+  font-weight: 400;
+  padding: 6px 30px;
   border-radius: 50px;
   transition: 0.3s;
   margin-top: 20px;
@@ -1239,12 +1239,12 @@ left: 150px;
 .blog-type{
   position: absolute;
   top: 30px;
-  right: 30px;
+  left: 30px;
   border: 1px solid #14924A;
   border-radius: 20px;
   background: #14924A;
   color: #fff;
-  padding: 4px 20px;
+  padding: 2px 20px;
   transition: all 0.2s ease-in-out;
 }
 .card-body:hover .blog-type{
@@ -1277,7 +1277,7 @@ left: 150px;
   border: 1px solid #1C4342;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   border-radius: 14px;
   position: relative;
 }
@@ -1451,12 +1451,13 @@ left: 150px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  align-items: center;
   gap: 1%;
 }
 
 .about-right-content-innerdiv {
-  width: 49%;
-  height: auto;
+  width: 48%;
+  height: 100px;
   background: #dcebe2;
   border-radius: 10px;
   padding: 20px;
@@ -1482,6 +1483,8 @@ left: 150px;
 }
 .about-right-content-innerdiv p {
   margin-bottom: 0;
+  text-align: center;
+  line-height: 20px;
 }
 
 /* --- Responsive Design --- */
@@ -1569,9 +1572,11 @@ left: 150px;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-top: 40px;
 }
 .vision-card {
   width: 49%;
+  height: 180px;
   background: #fff;
   border-radius: 20px;
   padding: 20px;
@@ -1622,8 +1627,12 @@ left: 150px;
 .team p{
   width: 70%;
   margin: auto;
+  font-size: 22px;
   text-align: center;
   margin-bottom: 30px;
+}
+.team-all-cards{
+  justify-content: center;
 }
 .team-member-card {
   position: relative;
@@ -1648,7 +1657,7 @@ left: 150px;
 }
 
 .team-member-content {
-  height: 180px;
+  height: 100px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -1700,8 +1709,8 @@ left: 150px;
 
 
 .product-header-banner {
-  background: linear-gradient(rgba(255, 255, 255, 0.6), rgba(0, 0, 0, 0.8)),
-    url("/assets/img/product-banner.jpg") !important;
+  background: linear-gradient(rgba(255, 255, 255, 0.6), rgba(0, 0, 0, 0.9)),
+    url("../img/product-banner.jpg") !important;
   /* margin-top: 100px; */
   color: var(--text-light);
   display: flex;
@@ -1711,19 +1720,14 @@ left: 150px;
   justify-content: center;
   box-sizing: border-box;
 }
-.product-header-banner h1{
-  margin-top: 100px;
-  color: #fff;
-  font-weight: 700;
-  font-size: 60px;
-}
 .product-header-banner p{
   color: #fff;
   font-weight: 400;
-  font-size: 20px;
+  font-size: 24px;
   width: 70%;
   margin: auto;
-  line-height: 24px;
+  line-height: 30px;
+  padding-top: 140px;
 }
 
 .product-single {
@@ -1829,8 +1833,8 @@ left: 150px;
 
 
 .blog-header-banner {
-  background: linear-gradient(rgba(255, 255, 255, 0.6), rgba(0, 0, 0, 0.8)),
-    url("/assets/img/blog-banner.jpg") !important;
+  background: linear-gradient(rgba(255, 255, 255, 0.6), rgba(0, 0, 0, 0.9)),
+    url("../img/blog-banner.jpg") !important;
   /* margin-top: 100px; */
   color: var(--text-light);
   display: flex;
@@ -1841,18 +1845,19 @@ left: 150px;
   box-sizing: border-box;
 }
 .blog-header-banner h1{
-  margin-top: 100px;
+  margin-top: 140px;
   color: #fff;
   font-weight: 700;
-  font-size: 60px;
+  font-size: 40px;
+  margin-bottom: 40px;
 }
 .blog-header-banner p{
   color: #fff;
   font-weight: 400;
-  font-size: 20px;
+  font-size: 24px;
   width: 70%;
   margin: auto;
-  line-height: 24px;
+  line-height: 30px;
 }
 
 .blog-catg{
@@ -1909,6 +1914,8 @@ left: 150px;
 .recent-posts-list img{
   width: 80px;
   height: 70px;
+  margin-right: 10px;
+  object-fit: cover;
 }
 
 .sidebar-widget{
@@ -1960,7 +1967,7 @@ left: 150px;
 
 
 .card-main-img {
-  height: 30vw;
+  height: 25vw;
   overflow: hidden;
 }
 .card-main-img img {
@@ -2007,7 +2014,7 @@ left: 150px;
 
 .privacy-header-banner {
   background: linear-gradient(rgba(255, 255, 255, 0.6), rgba(0, 0, 0, 0.8)),
-    url("/assets/img/privacy-policy-banner.jpg") !important;
+    url("../img/privacy-policy-banner.jpg") !important;
   color: var(--text-light);
   display: flex;
   background-size: cover !important;
